@@ -95,8 +95,8 @@ class _RegisterFormState extends State<RegisterForm> {
                     validator: (value) => Validator.validateName(
                       name: value,
                     ),
-                    label: 'Organization Name',
-                    hint: 'Enter Organization name',
+                    label: 'Name',
+                    hint: 'Enter Name',
                   ),
                   SizedBox(height: 16.0),
                   CustomFormField(
